@@ -2,7 +2,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import './App.css'
 import HomeContainer from './components/pages/Home/HomeContainer'
 import NavBarContainer from './components/layout/navBar/NavBarContainer'
-import BlogContainer from './components/pages/blog/blogContainer'
+import BlogContainer from './components/pages/blog/BlogContainer'
 
 function App() {
 
