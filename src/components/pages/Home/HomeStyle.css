@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    gap: 20px;
+    .firstPart{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        border-bottom: 1px solid rgb(210, 210, 210);
+    }
+    .secondPart{
+        width: 100%;
+    }
+    h1{
+        margin: 20px;
+        font-weight: 700;
+        font-size: 40px;
+        text-align: center;
+    }
+    h3{
+        width: fit-content;
+        text-align: center;
+        background-color: black;
+        border-radius: 7px;
+        padding: 10px;
+        color: white;
+    }
+}

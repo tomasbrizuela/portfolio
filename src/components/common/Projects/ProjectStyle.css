@@ -1,0 +1,18 @@
+.projectList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;
+}
+
+.divSkeleton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 400px;
+}
