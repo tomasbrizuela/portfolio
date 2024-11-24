@@ -6,10 +6,10 @@ const Card = ({ info }) => {
             <div className='imgDiv'>
                 <img className="image" src={info.image} />
             </div>
-            <div>
+            <div className='h2Div'>
                 <h2>{info.title}</h2>
             </div>
-            <div >
+            <div className='h2Div'>
                 <p>{info.description}</p>
             </div>
             <div className='tags'>
