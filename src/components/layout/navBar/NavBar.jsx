@@ -5,7 +5,8 @@ const NavBar = () => {
     return (
         <div className="navBar">
             <div className="navLogo">
-                <h1>Tomas Brizuela</h1>
+                <Link style={{ textDecoration: "none", color: "Black" }} to={"/"}>
+                    <h1>Tomas Brizuela</h1></Link>
             </div>
             <div className="navOption">
                 <ul>
