@@ -1,5 +1,4 @@
 import NavBar from "./NavBar"
-import './NavBarStyle.css'
 
 const NavBarContainer = () => {
     return (
