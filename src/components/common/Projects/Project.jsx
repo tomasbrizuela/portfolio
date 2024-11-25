@@ -14,10 +14,10 @@ const Project = ({ apps, loading }) => {
                     <CardContainer info={app} key={app.id} />
 
                 ) : <div className='divSkeleton'>
-                    <Skeleton style={{ width: "250px", height: "700px", margin: "0px" }} />
-                    <Skeleton style={{ width: "250px", height: "700px", margin: "0px" }} />
-                    <Skeleton style={{ width: "250px", height: "700px", margin: "0px" }} />
-                    <Skeleton style={{ width: "250px", height: "700px", margin: "0px" }} />
+                    <Skeleton style={{ width: "250px", height: "700px", margin: "0px", borderRadius: "8px" }} />
+                    <Skeleton style={{ width: "250px", height: "700px", margin: "0px", borderRadius: "8px" }} />
+                    <Skeleton style={{ width: "250px", height: "700px", margin: "0px", borderRadius: "8px" }} />
+                    <Skeleton style={{ width: "250px", height: "700px", margin: "0px", borderRadius: "8px" }} />
                 </div>
             }
         </div>
