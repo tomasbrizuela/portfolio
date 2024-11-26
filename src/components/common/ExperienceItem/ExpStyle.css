@@ -1,15 +1,20 @@
 .expCard{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
     border-radius: 10px;
     row-gap: 10px;
     width: 100%;
+    max-height: 60px;
+    overflow: hidden;
     padding: 10px;
-    box-shadow: 0px 0px 1px rgb(110, 110, 110);
+    transition: max-height 1s ease;
+    /* box-shadow: 0px 0px 1px rgb(110, 110, 110); */
     h3{
         text-decoration: underline;
+        color: rgb(94, 94, 94);
+        font-size: 15px;
     }
 }
 
@@ -19,6 +24,27 @@
     justify-content: space-between;
     column-gap: 10px;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     color: grey;
+}
+
+.expDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    color: rgb(68, 68, 68);
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.expCard:hover{
+    max-height: 200px;
+    h3{
+        color: black;
+    }
+    div{
+        color: black;
+    }
 }
