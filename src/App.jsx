@@ -3,6 +3,7 @@ import './App.css'
 import HomeContainer from './components/pages/Home/HomeContainer'
 import NavBarContainer from './components/layout/navBar/NavBarContainer'
 import BlogContainer from './components/pages/blog/BlogContainer'
+import CvContainer from './components/pages/Cv/CvContainer'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
           <Route path='/' element={<HomeContainer />} />
           <Route path='/blog' element={<BlogContainer />} />
           <Route path='/apps' element={<HomeContainer />} />
-          <Route path='/cv' element={<HomeContainer />} />
+          <Route path='/cv' element={<CvContainer />} />
           <Route path='/contact' element={<HomeContainer />} />
           <Route path='*' element={<Link to={"/"}>Go back to home, my friend!</Link>} />
         </Routes>
