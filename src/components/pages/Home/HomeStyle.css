@@ -8,14 +8,15 @@
     gap: 20px;
     .firstPart{
         display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 20px;
         padding: 10px 0px 10px 0px;
         width: 100%;
     }
     .secondPart{
+        display: flex;
         width: 100%;
     }
     h1{

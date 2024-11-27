@@ -9,6 +9,8 @@
     max-height: 60px;
     overflow: hidden;
     padding: 10px;
+    box-shadow: 0px 0px 1px rgb(168, 168, 168);
+
     transition: max-height 1s ease;
     /* box-shadow: 0px 0px 1px rgb(110, 110, 110); */
     h3{
