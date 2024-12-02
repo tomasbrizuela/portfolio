@@ -4,6 +4,9 @@ const Card = ({ info }) => {
     return (
         <div className='card'>
             <div className='imgDiv'>
+                {
+                    info.live && <i className='doted'></i>
+                }
                 <img className="image" src={info.image} />
             </div>
             <div className='h2Div'>

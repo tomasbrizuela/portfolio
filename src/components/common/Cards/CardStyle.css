@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    position: relative;
     width: 250px;
     height: 350px;
     /* border: 0.1px solid rgb(205, 205, 205); */
@@ -69,4 +70,15 @@
         font-family: poppins;
         font-weight: 400;
     }
+}
+
+.doted{
+    width: 10px;
+    background-color: #d60700;
+    height: 10px;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px rgb(78, 78, 78);
+    bottom: 15px;
+    right: 10px;
 }
