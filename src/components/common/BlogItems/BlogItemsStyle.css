@@ -1,0 +1,34 @@
+.blogItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+    row-gap: 10px;
+    padding: 10px 20px 10px 20px;
+    transition: 0.3s ease;
+    overflow: hidden;
+    h4{
+        font-weight: 300;
+    }
+    p{
+        font-size: 10px;
+        text-decoration: none;
+    }
+}
+
+.blogItem:hover{
+    color: black;
+    height: 60px;
+    h4{
+        text-decoration: underline;
+
+        font-weight: 500;
+    }
+    p{
+        text-decoration: none;
+
+    }
+}

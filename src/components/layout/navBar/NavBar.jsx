@@ -22,6 +22,9 @@ const NavBar = () => {
                     <li><Link style={{
                         textDecoration: "none", color: "black", fontWeight: 400
                     }} to={"/contact"}>Contact</Link></li>
+                    <li><Link style={{
+                        textDecoration: "none", color: "white", fontWeight: 600, backgroundColor: "Black", padding: "5px 10px 5px 10px", borderRadius: "10px"
+                    }} to={"https://calendly.com/tomasbrizuela/tomas-brizuela"}>Quick Call</Link></li>
                 </ul>
             </div>
         </div>
