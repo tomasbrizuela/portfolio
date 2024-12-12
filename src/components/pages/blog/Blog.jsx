@@ -8,10 +8,10 @@ const Blog = ({ info, isLoading }) => {
         <div>
             <div className="listEntries">
                 <h1>My writings & thoughts</h1>
-                {isLoading && <div style={{ width: '70%', height: '30px' }}><Skeleton style={{ width: "235px" }} /></div>}
-                {isLoading && <div style={{ width: '70%', height: '30px' }}><Skeleton style={{ width: "198px" }} /></div>}
-                {isLoading && <div style={{ width: '70%', height: '30px' }}><Skeleton style={{ width: "159px" }} /></div>}
-                {isLoading && <div style={{ width: '70%', height: '30px' }}><Skeleton style={{ width: "240px" }} /></div>}
+                {isLoading && <div style={{ width: '350px', height: '20px' }}><Skeleton style={{ width: "235px" }} /></div>}
+                {isLoading && <div style={{ width: '350px', height: '20px' }}><Skeleton style={{ width: "198px" }} /></div>}
+                {isLoading && <div style={{ width: '350px', height: '20px' }}><Skeleton style={{ width: "159px" }} /></div>}
+                {isLoading && <div style={{ width: '350px', height: '20px' }}><Skeleton style={{ width: "240px" }} /></div>}
                 {
                     info.map((post) => {
                         return <BlogItemsContainer key={post.id} post={post} />

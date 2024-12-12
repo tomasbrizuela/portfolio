@@ -5,6 +5,7 @@ import NavBarContainer from './components/layout/navBar/NavBarContainer'
 import BlogContainer from './components/pages/blog/BlogContainer'
 import CvContainer from './components/pages/Cv/CvContainer'
 import ContactContainer from './components/pages/Contact/ContactContainer'
+import BlogPostContainer from './components/common/BlogPostDetail/BlogPostContainer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomeContainer />} />
           <Route path='/blog' element={<BlogContainer />} />
+          <Route path='/blog/:id' element={<BlogPostContainer />} />
           <Route path='/apps' element={<HomeContainer />} />
           <Route path='/cv' element={<CvContainer />} />
           <Route path='/contact' element={<ContactContainer />} />
